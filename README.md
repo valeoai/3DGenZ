@@ -75,7 +75,7 @@ Tested with: Pytorch 1.6.0 and 1.7.1 (both Cuda 10.1). As torch-geometric is nee
 4. Download the [semantic word embeddings](https://drive.google.com/file/d/11MMrgWP7OEET8W5GtRYOwKZQ6ihTQp7q/view?usp=sharing) and the [pretrained backbones](https://drive.google.com/file/d/1WyLGAYvUSGnYx0DtRZNozThFqWL7Jgi0/view?usp=sharing).
     - Place the **semantic word embeddings** in 
     ```
-    3DGenZ/3DGenZ/genz3d/word_representations/
+    3DGenZ/genz3d/word_representations/
     ```
     
     - For **SN**, the pre-trained backbone model and the config file, are placed in 
@@ -84,7 +84,7 @@ Tested with: Pytorch 1.6.0 and 1.7.1 (both Cuda 10.1). As torch-geometric is nee
     ```
     The complete ZSL-trained model cpkt is placed in (create the folder if necessary)
     ```
-    3DGenZ/3DGenZ/genz3d/seg/run/scannet/
+    3DGenZ/genz3d/seg/run/scannet/
     ```
     
     - For **SK**, the pre-trained backbone-model,  the "Log-..." folder is placed in 
