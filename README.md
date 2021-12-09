@@ -97,7 +97,7 @@ Tested with: Pytorch 1.6.0 and 1.7.1 (both Cuda 10.1). As torch-geometric is nee
     ```
 
 ### Run training and evalutation
-5. **Training (Classifier layer)**: In [/3DGenZ/genz3d/seg/](3DGenz/genz3d/seg/) you find for each of the datasets a folder with scripts to run the generator and classificator training.(see: [SN](3DGenZ/genz3d/seg/scripts_sn),[SK](3DGenZ/genz3d/seg/scripts_sn))
+5. **Training (Classifier layer)**: In [3DGenZ/genz3d/seg/](3DGenz/genz3d/seg/) you find for each of the datasets a folder with scripts to run the generator and classificator training.(see: [SN](3DGenZ/genz3d/seg/scripts_sn),[SK](3DGenZ/genz3d/seg/scripts_sn))
     - Alternatively, you can use the pretrained models from us. 
 6. **Evalutation:** Is done with the evaluation functions of the backbones. (see: [SN_eval](scannet/LightConvPoint/examples/scannet/scripts_final_eval), [KP-Conv_eval](https://github.com/HuguesTHOMAS/KPConv-PyTorch/blob/master/test_models.py))
 
