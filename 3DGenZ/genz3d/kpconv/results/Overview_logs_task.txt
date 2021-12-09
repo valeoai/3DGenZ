@@ -1,0 +1,3 @@
+Which task is behind which log file: 
+
+Supervised on seen classes : Log_2020-09-18_19-00-03
