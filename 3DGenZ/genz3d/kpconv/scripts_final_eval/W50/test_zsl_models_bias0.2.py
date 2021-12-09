@@ -99,7 +99,7 @@ if __name__ == '__main__':
 
     # Choose the index of the checkpoint to load OR None if you want to load the current checkpoint
     chkp_idx = None
-    chosen_chkp  = "../seg/run/sk/sk_gmmn_weighted50_zsl_retrained/experiment_0/20_model.pth.tar"
+    chosen_chkp  = "../seg/run/sk/20_model.pth.tar"
     bias = 0.2
     weight = 50
     generative = True
