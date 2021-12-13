@@ -34,7 +34,7 @@ If you want to cite this work:
   author={Michele, Bj{\"o}rn and Boulch, Alexandre and Puy, Gilles and Bucher, Maxime and Marlet, Renaud},
   booktitle={International Conference on 3D Vision (3DV)},
   year={2021}
-
+}
 ```
 
 # Code 
