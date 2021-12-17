@@ -112,7 +112,7 @@ For the datasets we used  different backbones, for which we highly rely on their
 For semantic segmentation we did experiments on 3 datasets. 
 - SemanticKITTI [4][5]. 
 - S3DIS [6]. 
-- ScanNet[7]. 
+- ScanNet[7]. (see the [description](https://github.com/charlesq34/pointnet2/tree/master/scannet) here, to download exactly the same dataset that we used)
 
 # Acknowledgements
 For the Generator Training we use parts of the code basis of [ZS3](https://github.com/valeoai/ZS3).\
