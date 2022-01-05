@@ -4,7 +4,7 @@
   </h1>
 Björn Michele<sup>1)</sup>,  <a href="https://boulch.eu/">Alexandre Boulch</a><sup>1)</sup>, <a href="https://sites.google.com/site/puygilles/">Gilles Puy</a><sup>1)</sup>, Maxime Bucher<sup>1)</sup> and <a href="http://imagine.enpc.fr/~marletr/">Renaud Marlet</a><sup>1)2)</sup>
   
-<sup>1)</sup> [Valeo.ai](https://valeoai.github.io/blog/)  <sup>2)</sup>LIGM, Ecole des Ponts, Univ Gustave Eiffel, CNRS, Marne-la-Vallée, Franc
+<sup>1)</sup> [Valeo.ai](https://valeoai.github.io/blog/)  <sup>2)</sup>LIGM, Ecole des Ponts, Univ Gustave Eiffel, CNRS, Marne-la-Vallée, France
 </div>
 
 Accepted at [3DV 2021](https://3dv2021.surrey.ac.uk/papers/042.html)\
