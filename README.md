@@ -104,7 +104,7 @@ Tested with: Pytorch 1.6.0 and 1.7.1 (both Cuda 10.1). As torch-geometric is nee
 ### Run training and evalutation
 6. **Training (Classifier layer)**: In [3DGenZ/genz3d/seg/](3DGenz/genz3d/seg/) you find for each of the datasets a folder with scripts to run the generator and classificator training.(see: [SN](3DGenZ/genz3d/seg/scripts_sn),[SK](3DGenZ/genz3d/seg/scripts_sn))
     - Alternatively, you can use the pretrained models from us. 
-7. **Evalutation:** Is done with the evaluation functions of the backbones. (see: [SN_eval](scannet/LightConvPoint/examples/scannet/scripts_final_eval), [KP-Conv_eval](https://github.com/HuguesTHOMAS/KPConv-PyTorch/blob/master/test_models.py))
+7. **Evalutation:** Is done with the evaluation functions of the backbones. (see: [SN_eval](3DGenZ/genz3d/fkaconv/examples/scannet/scripts_final_eval), [KP-Conv_eval](3DGenZ/genz3d/kpconv/scripts_final_eval/W50))
 
 ### Backbones 
 For the datasets we used  different backbones, for which we highly rely on their code basis. In order to adapt them to the ZSL setting we made the change that during the backbone training no crops of point clouds with unseen classes are shown (if there is a single unseen class
