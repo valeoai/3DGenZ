@@ -53,7 +53,7 @@ Please see [requirements.txt](requirements.txt) for all needed code libraries.
 Tested with: Pytorch 1.6.0 and 1.7.1 (both Cuda 10.1). As torch-geometric is needed Pytoch >= 1.4.0 is required. 
 
 1. Clone this repository.
-2. Download and/or install the backbones (ConvPoint is also necessary for our adaption of FKAConv. More information: [ConvPoint](ConvPoint/convpoint), [FKAConv](url), [KP-Conv](https://github.com/HuguesTHOMAS/KPConv-PyTorch/blob/master/INSTALL.md)).
+2. Download and/or install the backbones (ConvPoint is also necessary for our adaption of FKAConv. More information: [ConvPoint](https://github.com/aboulch/ConvPoint), [FKAConv](https://github.com/valeoai/FKAConv), [KP-Conv](https://github.com/HuguesTHOMAS/KPConv-PyTorch/blob/master/INSTALL.md)).
     - For ConvPoint:
     ```
     cd 3DGenZ/genz3d/convpoint/convpoint/knn
@@ -102,7 +102,7 @@ Tested with: Pytorch 1.6.0 and 1.7.1 (both Cuda 10.1). As torch-geometric is nee
     sh install_genz3d.sh
     ```
 ### Run training and evalutation
-6. **Training (Classifier layer)**: In [3DGenZ/genz3d/seg/](3DGenz/genz3d/seg/) you find for each of the datasets a folder with scripts to run the generator and classificator training.(see: [SN](3DGenZ/genz3d/seg/scripts_sn),[SK](3DGenZ/genz3d/seg/scripts_sn))
+6. **Training (Classifier layer)**: In [3DGenZ/genz3d/seg/](3DGenZ/genz3d/seg/) you find for each of the datasets a folder with scripts to run the generator and classificator training.(see: [SN](3DGenZ/genz3d/seg/scripts_sn),[SK](3DGenZ/genz3d/seg/scripts_sn))
     - Alternatively, you can use the pretrained models from us. 
 7. **Evalutation:** Is done with the evaluation functions of the backbones. (see: [SN_eval](3DGenZ/genz3d/fkaconv/examples/scannet/scripts_final_eval), [KP-Conv_eval](3DGenZ/genz3d/kpconv/scripts_final_eval/W50))
 
